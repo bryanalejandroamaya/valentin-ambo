@@ -1,0 +1,6 @@
+[build]
+  command = "corepack enable && corepack prepare yarn@4.12.0 --activate && yarn install --immutable && yarn build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22.17.1"
