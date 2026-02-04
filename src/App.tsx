@@ -75,10 +75,6 @@ export default function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  function clamp(n: number, min: number, max: number) {
-    return Math.max(min, Math.min(max, n));
-  }
-
   function getNoScale(count: number) {
     const desired = Math.min(1 + count * 0.28, MAX_SCALE);
 
