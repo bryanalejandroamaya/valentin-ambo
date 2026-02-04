@@ -253,7 +253,7 @@ export default function App() {
         </div>
         {!accepted ? (
           <>
-            <h1 className="title">Cuche ¿Quieres ser mi San Valentín? 🥺💚🩷</h1>
+            <h1 className="title">Cuche ¿Puedo ser tú San Valentín? 🥺💚🩷</h1>
             <p className="subtitle">
               Si le das que no sos gay, si le das que si te invito un orange chicken
             </p>
