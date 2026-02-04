@@ -371,9 +371,10 @@
 
 /* Hearts background */
 .hearts {
-  position: absolute;
+  position: fixed;
   inset: 0;
   pointer-events: none;
+  overflow: hidden;  
 }
 
 .heart {
@@ -416,10 +417,6 @@
 }
 
 @keyframes fall {
-  0% {
-    transform: translateY(-70px) rotate(45deg);
-  }
-  100% {
-    transform: translateY(110vh) rotate(45deg);
-  }
+  0%   { transform: translateY(-70px) rotate(45deg); }
+  100% { transform: translateY(110vh) rotate(45deg); } /* antes: 110vh */
 }
